@@ -675,7 +675,7 @@ class Entity extends EventEmitter {
         if (this.settings.healthWithLevel) {
             levelMultiplier += Math.min(45, level) / 45;
         }
-        if (level > 45 && (this.isPlayer || this.isBot)) {
+        if (level > 45 && (this.isBot || this.isBoss)) {
             const scoreSince45 = this.skill.score - 26263;
             // wall size is not accurate for some reason lol
             const multiplier = 1.065;
