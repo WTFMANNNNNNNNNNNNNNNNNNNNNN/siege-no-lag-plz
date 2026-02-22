@@ -2703,7 +2703,7 @@ Class.infestor = {
     GUNS: weaponArray(weaponMirror({
         POSITION: [7.25, 6, 1.2, 6, -5, 90, 0],
         PROPERTIES: {
-            SHOOT_SETTINGS: combineStats([g.drone, g.sunchip, {reload: 0.5}]),
+            SHOOT_SETTINGS: combineStats([g.drone, g.sunchip, {reload: 0.1}]),
             TYPE: "eggchip",
             AUTOFIRE: true,
             SYNCS_SKILLS: true,
