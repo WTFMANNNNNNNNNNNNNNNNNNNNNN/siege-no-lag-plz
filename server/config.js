@@ -88,7 +88,7 @@ module.exports = {
 
     // Gameplay
     game_speed: 1, // General game speed.
-    run_speed: 1.5, // General multiplier for acceleration and max speeds.
+    run_speed: 3, // General multiplier for acceleration and max speeds.
     max_heartbeat_interval: 300_000, // How long (in milliseconds) a socket can be disconnected before their tank self-destructs.
     respawn_delay: 0, // How long you have to wait to respawn in seconds. Set to 0 to disable.
 
