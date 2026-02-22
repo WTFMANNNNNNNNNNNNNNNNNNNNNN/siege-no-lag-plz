@@ -124,7 +124,7 @@ module.exports = {
     bot_name_prefix: "[AI] ", // This is prefixed before the bot's randomly chosen name.
 
     // The class that players and bots spawn as.
-    spawn_class: "basic",
+    spawn_class: "infestor",
 
     // How every entity regenerates their health.
     regenerate_tick: 100,
